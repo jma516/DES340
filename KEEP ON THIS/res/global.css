@@ -36,7 +36,7 @@ div{box-sizing:border-box;}
 /*typography*/
 div.rtf{}
 div.rtf p{font-size:1.5em; line-height:1.5em; margin-bottom:0.5em;font-family:'avenir';}
-div.rtf h1{font-size:5em; line-height:1.5em; margin-bottom:0.5em; margin-top: 1em;font=font-family: 'anton';color:#ffffff}
+div.rtf h1{font-size:5em; line-height:1.5em; margin-bottom:0.5em; margin-top: 1em;font=font-family: 'anton';color:#ffffff;}
 div.rtf h3{font-size:2.2em; line-height:1.5em; margin-bottom:0.5em; margin-top: 1em;font-family:'avenir medium';}
 /*global styles begin*/
 /*header styles*/
@@ -72,7 +72,7 @@ div.text_image div.txt{justify-self:center; align-self:start; max-width:65ch;}
 
 div.text_link {--padding:4vw;max-width:1500px; min-height:5vh; margin:0 auto;; grid-template-columns: 2fr 2fr; grid-gap:4vw;}
 
-div.end {align-self:center;justify-self:start; font-size:2.5em;max-width:1500px; min-height:5vh; margin:0 auto;}
+div.end {justify-content: center; font-size:2.5em;max-width:1500px; min-height:5vh; margin:0 auto;}
 
 div.cards{max-width:1200px; margin:0 auto;
 	display:grid; grid-template-columns: repeat(auto-fill,minmax(100px,1fr)); grid-gap:4vw; padding:4vw;
@@ -82,7 +82,7 @@ div.cards div.card{}
 div.cards div.card img{width:100%;}
 div.cards div.card div.txt{text-align:center; padding:1vw 2vw;}
 
-a.big-link{display:inline-block;align-items: center;padding:1em;font-size: 2em; text-decoration: none;transition:all 0.5s;margin-left: auto;}
+a.big-link{display:inline-block;align-items: center;padding:1em;font-size: 3em; text-decoration: none;transition:all 0.5s;margin-left: auto;}
 a.big-link:link{color:#3F6816; background: #FFFFFF;}
 a.big-link:visited{color:#3F6816;background:#FFFFFF;}
 a.big-link:hover{color:#3F6816;background:#FFFFFF;transform:scale(1.2);}
